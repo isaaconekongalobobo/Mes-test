@@ -1,0 +1,220 @@
+li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+    color: rgb(53, 53, 39);
+}
+a{
+    text-decoration: none;
+    color: rgb(53, 53, 39);
+}
+body{
+    margin: auto;
+}
+p{
+    font-family: sans-serif;
+}
+.items-footer li{
+    padding-bottom: 5px;
+}
+.image-projet{
+    width: 250px;
+    height: 250px;
+}
+.onglets{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 5%;
+    font-family: sans-serif;
+}
+.bloconglets{
+    position: relative;
+}
+.titre{
+    font-family: sans-serif;
+}
+.profil{
+    width: 400px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    filter: grayscale();
+}
+.navbar {
+    padding: 0;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar>ul>li {
+    white-space: nowrap;
+    padding: 10px 0 10px 28px;
+}
+.nom-onglet {
+    padding-right: 75%;
+}
+.bouton{
+    width: 80px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+.bouton a {
+    color: #ffffff;
+}
+.blocprincipale{
+    padding: 20px;
+    font-family: sans-serif;
+}
+.blocprofil {
+    padding-left: 100px;
+    padding-top: 50px;      
+}
+.blocrow {
+    display: flex;
+    gap: 20px;
+}
+.blocrow-footer {
+    display: flex;
+    gap: 149px;  
+    font-family: sans-serif;
+    padding-left: 160px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.blocrow-projet {
+    display: flex;
+    gap: 50px;  
+    font-family: sans-serif;
+    padding-left: 20%;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.blocrow-formulaire{
+    display: flex;
+    gap: 50px;  
+    font-family: sans-serif;
+    padding-left: 20%;
+    padding-top: 5px;
+    padding-bottom: 50px;    
+}
+.bloc-contact{
+    display: block;
+    padding-right: 200px;
+}
+.champ-row{
+    display: flex;
+    gap: 50px;  
+    font-family: sans-serif;
+}
+.bloc-intro {
+    padding: 10px;
+    padding-top: 110px;
+}
+.bloc-intro h2 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: -20px;
+}
+.btn-cv {
+    background-color: #FFB703;
+}
+.btn-projet {
+    background-color: #950101;
+}
+.btn-contact {
+    background-color: #00FFF5;
+}
+.btn-formulaire{
+    padding-top: 30px;
+}
+.ligne{
+    width: 1020px;
+    opacity: 80%;
+}
+.titre-generaux {
+    padding-left: 20%;
+}
+
+
+/* Je crée un média query pour gerer la resonsivit de la page  */
+@media screen and (max-width:1200px) {
+    .titre{
+        display: grid;
+        place-items: center;
+    }
+}
+/* Je crée un média query pour gerer la resonsivité de la page pour smartphone  */
+@media screen and (max-width:600px) {
+    .profil{
+        width: 300px;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+    }
+    .blocprofil{
+        padding-left: 50px;
+        padding-top: 50px; 
+    }
+    .onglets{
+        display: flex;
+        gap: 20px;
+        padding-top: 10px;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .nom-onglet{
+        padding-right: -0%;
+    }
+    .blocrow{
+        display: block;
+    }
+    .bloc-intro{
+        top: 10%;
+    }.blocrow-footer {
+        display: flex;
+        gap: 10px;  
+        font-family: sans-serif;
+        font-size: 10px;
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .blocrow-projet {
+        display: block;
+        gap: 50px;  
+        font-family: sans-serif;
+        padding-left: 49px;
+        padding-top: 5px;
+        padding-bottom: 50px;
+    }
+    .blocrow-formulaire{
+        display: block;
+        font-family: sans-serif;   
+    }
+    .champ-row{
+        display: block;
+        font-family: sans-serif;
+    }
+    .titre-intro{
+        padding-left: 24%;
+    }
+    .titre-intro2{
+        padding-left: 24%; 
+    }
+    .ligne{
+        width: 500px;
+        opacity: 80%;
+    }
+ }
